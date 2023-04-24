@@ -42,6 +42,14 @@
 ::before {
   box-sizing: border-box;
 }
+#filters__content {
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 5px;
+}
+#slides {
+  background-color: lightgray;
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -5492,8 +5500,9 @@ fieldset:disabled .btn {
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 80%;
   overflow: hidden;
+  margin: auto;
 }
 .carousel-inner::after {
   display: block;
@@ -5629,7 +5638,7 @@ fieldset:disabled .btn {
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #0a53be;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
