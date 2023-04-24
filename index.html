@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Food and Beverages</title>
+    <title>Daniel's Store</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.js">
@@ -16,9 +16,9 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Food and Beverages</a>
+                <a class="navbar-brand" href="#">Daniel's Store</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,10 +29,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Food Categories</a>
+                            <a class="nav-link" href="pages/food.html">Food Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Beverage Categories</a>
+                            <a class="nav-link" href="pages/beverages.html">Beverage Categories</a>
                         </li>
                     </ul>
                 </div>
@@ -42,9 +42,10 @@
 
     <main>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center text-white">
             <div class="col-md-6 text-center">
-                <h1 class="mb-4">Welcome to our Store!</h1>
+                <br>
+                <h1 class="mb-4">Welcome to Daniel's Store Layout!</h1>
             </div>
         </div>
         <!-- Carousel -->
@@ -72,18 +73,20 @@
 
         <div id="filters__content">
             <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
+                <div class="col-md-6 text-center text-white">
+                    <br>
+                    <br>
                     <h1 class="mb-4">Our Products</h1>
                 </div>
             </div>
             <!-- Filter Buttons -->
             <div class="container my-5">
                 <div class="row justify-content-center">
-                    <div class="col-md-6 text-center">
-                        <button id="foodCategoriesBtn" type="button" class="btn btn-primary mx-2" data-toggle="collapse"
+                    <div class="col-md-6 text-center bg-transparent">
+                        <button id="foodCategoriesBtn" type="button" class="btn btn-success mx-2" data-toggle="collapse"
                             data-target="#foodCategories" aria-expanded="false" aria-controls="foodCategories">Food
                             Categories</button>
-                        <button id="beverageCategoriesBtn" type="button" class="btn btn-primary mx-2"
+                        <button id="beverageCategoriesBtn" type="button" class="btn btn-success mx-2"
                             data-toggle="collapse" data-target="#beverageCategories" aria-expanded="false"
                             aria-controls="beverageCategories">Beverage Categories</button>
                     </div>
@@ -95,61 +98,57 @@
                 <div class="container my-5">
                     <div class="row justify-content-center">
                         <div class="col-md-6 text-center">
-                            <h2 class="mb-4">Food</h2>
+                            <h2 class="mb-4 text-white">Food</h2>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Breakfast" class="card-img-top"
-                                    alt="...">
+                                <img src="images/breakfast.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Breakfast</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Lunch" class="card-img-top"
-                                    alt="...">
+                                <img src="images/lunch.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Lunch</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Dinner" class="card-img-top"
-                                    alt="...">
+                                <img src="images/dinner.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Dinner</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Snacks" class="card-img-top"
-                                    alt="...">
+                                <img src="images/snack.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Snacks</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 text-center">
                             <div class="display-flex">
-                                <a href="#" class="btn btn-primary">See All</a>
+                                <a href="pages/food.html" class="btn btn-info">See All</a>
                             </div>
                         </div>
                     </div>
@@ -163,61 +162,57 @@
                 <div class="container my-5">
                     <div class="row justify-content-center">
                         <div class="col-md-6 text-center">
-                            <h2 class="mb-4">Beverages</h2>
+                            <h2 class="mb-4 text-white">Beverages</h2>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Breakfast" class="card-img-top"
-                                    alt="...">
+                                <img src="images/soda.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">B1</h5>
+                                    <h5 class="card-title">Sodas</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Lunch" class="card-img-top"
-                                    alt="...">
+                                <img src="images/milk.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">B2</h5>
+                                    <h5 class="card-title">Milks</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Dinner" class="card-img-top"
-                                    alt="...">
+                                <img src="images/juices.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">B3</h5>
+                                    <h5 class="card-title">Juices</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 text-center mb-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x300.png?text=Snacks" class="card-img-top"
-                                    alt="...">
+                                <img src="images/alcohol.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">B4</h5>
+                                    <h5 class="card-title">Alcohol</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                         eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#" class="btn btn-primary">Explore</a>
+                                    <a href="#" class="btn btn-info">Explore</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 text-center">
                             <div class="display-flex">
-                                <a href="#" class="btn btn-primary">See All</a>
+                                <a href="pages/beverages.html" class="btn btn-info">See All</a>
                             </div>
                         </div>
                     </div>
@@ -268,43 +263,176 @@
             </script>
         </div>
 
-        <!-- Beverage Categories -->
-        <!-- <div class="collapse" id="beverageCategories">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 text-center">
-                        <h2 class="mb-4">Beverage Categories</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 1</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 2</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 2.5</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-4 text-center mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Soft Drinks</h5>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 3</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 4</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 4.5</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Coffee & Tea</h5>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 5</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 text-center mb-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">Juices & Smoothies</h5>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 6</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="images/bread.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card 6.5</h5>
+                                    <p class="card-text">This is a sample card.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
-
-
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+        <br>
     </main>
+    <footer id="footersection" class="bg-dark text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-white">Footer Content</h5>
+
+                    <p id="footertext">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                        molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                        voluptatem veniam, est atque cumque eum delectus sint!
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-white">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-light">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0 text-white">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-light">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-light">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="text-white-50">
+                © 2023 Daniel Alvarez - UNIR
+            </p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
